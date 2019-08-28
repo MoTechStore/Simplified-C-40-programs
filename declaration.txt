@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	// C++ program shows how to declare variable
+	
+    int x;
+    string name;
+    float salary;
+    cout<<"x, name and salary are the variables declared : ";
+
+	return 0;
+	
+}
+
+
+
+

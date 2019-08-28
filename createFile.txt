@@ -1,0 +1,18 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+int main()
+{
+	// C++ create a file
+	char filename[30];
+	
+	cout<<"Enter Name Of File To Create : ";
+	cin>>filename;
+	ofstream createfile(filename);   
+	cout<<"Congrats File Called "<<filename<<" Is Created ";
+	return 0;	
+}
+
+

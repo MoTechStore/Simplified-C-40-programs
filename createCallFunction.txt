@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+void addition()
+{
+	int x,y,sum;
+	x=2;
+	y=2;
+	sum= x + y;
+	cout<<"Sum Of "<<x<<" And "<<y<<" Is "<<sum;
+}
+
+int main(){
+	// Create and call a function in C++
+	    addition();
+	    
+	return 0;
+}
+
+
+
+
+
+

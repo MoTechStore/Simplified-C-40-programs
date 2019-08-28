@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void addition(int x, int y)
+{
+    int sum; 
+ 	sum=x + y;
+	cout<<"Sum Of Two Entered Number Is "<<sum;
+}
+
+int main(){
+	// C++ function with arguments
+	    int sum;
+	    int a,b;
+	    cout<<"Enter Two Integer Numbers : ";
+	    cin>>a>>b;
+		addition(a,b);
+	return 0;
+}
+
+
+
+
+
+
+
+

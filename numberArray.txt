@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// C++ program to store number in array and display them
+	 
+	    // create array of size 3
+	    int number[3];
+	    // assign values to created array by using loop
+	     cout<<"Enter Three Numbers To Be Assigned In Array "<<endl;
+	    for(int a=1; a<=3; a++)
+	      {
+	      	cin>>number[a];
+		  }
+		  
+	    // print elements of array on screen
+	    cout<<"These are the elements of array number "<<endl;
+	    for(int b=1; b<=3; b++)
+	      {
+	      	cout<<number[b]<<endl;
+		  }
+	    
+	return 0;
+}
+
+
+
+
+
+

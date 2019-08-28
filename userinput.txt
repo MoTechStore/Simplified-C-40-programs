@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program to receive user input
+	
+	int age;
+	string name;
+	
+	cout<<"Enter Your Name : ";
+	cin>>name;
+	cout<<"Enter Your Age : ";
+	cin>>age;
+	cout<<"Your Name Is "<<name<<" "<<"And Your Age Is "<<age;	
+	return 0;
+	}
+	

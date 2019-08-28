@@ -1,0 +1,24 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	// C++ program to write in a file
+	char filename[30];
+	char data[70];
+	cout<<"Enter Name Of File To Write Inside It : ";
+	cin>>filename;
+	cout<<"Enter Data To Be Written In "<<filename<<endl;
+	ofstream writefile;
+	writefile.open(filename);   
+	cin>>data;
+	writefile<<data;
+	writefile.close();
+	cout<<"Congrats File Called "<<filename<<" Is Written ";
+	return 0;	
+}
+
+
+
+

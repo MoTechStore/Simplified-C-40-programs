@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// while loop program in C++ 
+      int a=0;
+     while(a<=3)
+     {
+       cout<<"This is while loop in C++"<<endl;
+	   a++;	
+	 }
+
+	return 0;
+}
+
+
+
+
+

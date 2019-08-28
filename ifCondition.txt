@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+ int main(){
+
+// If condition C++ program
+int x=4;
+  if(x==4)
+    cout<<"This is logical true"<<endl;
+cout<<"That is if condition "<<endl;
+
+return 0;
+
+}
+
+

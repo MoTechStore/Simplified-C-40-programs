@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program to find greatest numbers 
+    int number1,number2,number3;
+    cout<<"Program To Find Greatest number Among Three Numbers : "<<endl;
+    cout<<"Enter three Numbers : ";
+    cin>>number1>>number2>>number3;
+    if ((number1>=number2) && (number1>=number3))
+        cout<<"Number "<<number1<<" Is the greatest number "<<endl;
+    else if ((number2>=number1) && (number2>=number3))
+        cout<<"Number "<<number2<<" Is the greatest number "<<endl;
+    else
+	    cout<<"Number "<<number3<<" Is the greatest number "<<endl;
+	return 0;
+}
+
+
+
+

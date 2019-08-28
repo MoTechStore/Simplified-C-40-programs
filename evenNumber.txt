@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program to check if number is even
+	
+	int number;
+	cout<<"Enter Any Number : ";
+	cin>>number;
+	
+	if ( number%2==0)
+       cout<<"Number "<<number<<" Is Even Number ";
+	 else
+	   cout<<"Number "<<number<<" Is Not Even ";	
+
+	return 0;
+}
+
+
+

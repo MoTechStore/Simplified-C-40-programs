@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	// C++ program to read from a file
+	char filename[30];
+	char data[70];
+	cout<<"Enter Name Of File To Read Inside It : ";
+	cin>>filename;
+	cout<<"This Is Data Reading From "<<filename<<endl;
+	ifstream readfile;
+	readfile.open(filename);   
+	readfile>>data;
+	cout<<data<<endl;
+	readfile.close();
+	cout<<"Congrats File Called "<<filename<<" Is Read ";
+	return 0;	
+}
+
+
+

@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// C++ program to find sum,average and product using switch case
+	
+	    int n1,n2,n3,sum,average,product;
+		cout<<"Enter Three Numbers For Different Math Operations "<<endl; 
+		cin>>n1>>n2>>n3;
+	   char selection;
+      cout<<"Thank you, your input are saved, choose One Operation Below "<<endl;
+      cout<<"Select S for Sum, A for Average or P for Product "<<endl;
+      cin>>selection;
+      switch(selection){
+      	case 'S':
+      		sum= n1 + n2 + n3;
+      		cout<<"Sum Of Three Entered Numbers is "<<sum;
+      	    break;
+      	case 'A':
+      		average= (n1 + n2 + n3)/3;
+      		cout<<"Average Of Three Entered Numbers is "<<average;
+      	    break;
+		case 'P':
+			product= n1 * n2 * n3;
+      		cout<<"Product Of Three Entered Numbers is "<<product;
+      	    break;	      
+      	default:
+      	    cout<<"Wrong choice, select again ";
+	  }
+	return 0;
+}
+
+
+
+
+

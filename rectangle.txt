@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// C++ program to calculate area of rectangle
+	
+	    int width,length;
+		double area;
+		cout<<"C++ Program To Find Area Of Rectangle "<<endl; 
+		cout<<"Enter Width Of Rectangle "<<endl;
+		cin>>width;
+		cout<<"Enter Length Of Rectangle "<<endl;
+		cin>>length;
+	    area=width*length;
+	    cout<<"Area Of Rectangle Is "<<area;
+	return 0;
+}
+
+
+
+
+
+

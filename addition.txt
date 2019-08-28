@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+ {
+	// C++ program for addition of two numbers
+	
+	int numberone,numbertwo,sum;
+	  numberone=15;
+	  numbertwo=5;
+	
+	sum= numberone + numbertwo;
+
+	cout<<"Sum Of Two Numbers Is : "<<sum;
+	return 0;
+}
+
+

@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// Multiplication table program in C++
+	int tablenumber,row;
+	cout<<"This Is Multiplication Table : "<<endl;
+	cout<<"Enter Number Of Table You Want To Print : "<<endl;
+	cin>>tablenumber;
+	cout<<"Enter Number Of Rows In A Table : "<<endl;
+	cin>>row;
+	cout<<"This Is Multiplication table Of "<<tablenumber<<endl;
+	for(int i=1; i<=row; i++)
+	{
+		cout<<tablenumber<<" x "<<i<<"="<<tablenumber*i<<endl;
+	}
+	  
+	return 0;
+}
+
+
+
+
+
+
+
+

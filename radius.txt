@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+ int main(){
+
+// Area Of Radius C++ program
+int r=4;
+double pi=3.14;
+double area;
+area=pi*r*r;
+cout<<"Area Of A Circle Is "<<area<<endl;
+
+return 0;
+}
+
+
+
+
+
+
+
+

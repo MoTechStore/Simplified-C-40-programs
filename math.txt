@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+	// C++ program to find Square root of Numbers
+	    double root;
+	    int x;
+	    cout<<"This Program Find Square Root Of numbers "<<endl;
+	    cout<<"Enter Integer Number To Get Square Root "<<endl;
+	    cin>>x;
+	    root =sqrt(x);
+		  
+	    // print elements of array on screen
+	    cout<<"The Square Root Of "<<x<<" Is "<<root<<endl;
+	    
+	return 0;
+}
+
+
+
+
+
+

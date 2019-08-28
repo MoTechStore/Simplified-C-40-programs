@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program show how to initialize variable	
+    string company;
+    float revenue;
+    
+    company="MoTech";
+    revenue=2000.500;
+    cout<<"Name of the Company "<<company<<",  Total Revenue "<<revenue;
+
+	return 0;
+	
+}
+
+
+

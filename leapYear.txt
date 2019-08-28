@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program to check if a given year is leap 
+	
+	int year;
+	cout<<"Enter Any four Digits Of The Year  : ";
+	cin>>year;
+	
+	if ( year%4==0)
+       cout<<"Number "<<year<<" Is Leap Year";
+	 else
+	   cout<<"Number "<<year<<" Is Not Leap ";	
+	return 0;
+}
+
+
+

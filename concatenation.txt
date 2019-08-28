@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	string firstname="De";
+	string secondname="Moses";
+	string birthdate="1990";
+	
+	string age="I was born " + birthdate;
+	cout<<"My Name Is "<<firstname + secondname<<endl;	
+	cout<<age;
+	return 0;
+	}
+	

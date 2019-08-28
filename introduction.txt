@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	cout<<"Introduction of simpified C++ "<<endl;
+	cout<<"Course Offered by MoTech "<<endl;
+	cout<<"Instructor Noel Moses Mwadende "<<endl;	
+	return 0;
+	
+	}
+	

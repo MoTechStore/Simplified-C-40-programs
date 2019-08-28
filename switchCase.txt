@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// Switch case program in C++ 
+	   char selection;
+      cout<<"Migos US hiphop group has three memebers "<<endl;
+      cout<<"Select Q if you like Quavo, T for Takeoff or O for Offset "<<endl;
+      cin>>selection;
+      switch(selection){
+      	case 'Q':
+      		cout<<"Wow Quavo is slow motion rapper ";
+      	    break;
+      	case 'T':
+      		cout<<"Wow Takeoff is wise rapper ";
+      	    break;
+		case 'O':
+      		cout<<"Wow Offset is cruel rapper ";
+      	    break;	      
+      	default:
+      	    cout<<"Wrong choice, select again ";
+	  }
+	return 0;
+}
+
+
+
+
+

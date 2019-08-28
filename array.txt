@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// C++ program to create array,assign values and display them
+	 
+	    // create array of size 5
+	    string clubs[5];
+	    // assign values to create array
+	    clubs[0]="Barcelona";
+	    clubs[1]="Bayern Munich";
+	    clubs[2]="PSG";
+	    clubs[3]="Liverpool";
+	    clubs[4]="Madrid";
+	    // print elements of array on screen
+	    cout<<"These are the elements of array clubs "<<endl;
+	    for(int a=0; a<=4; a++)
+	      {
+	      	cout<<clubs[a]<<endl;
+		  }
+	    
+	return 0;
+}
+
+
+
+
+
+

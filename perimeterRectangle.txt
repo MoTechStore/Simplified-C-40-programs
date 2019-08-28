@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+ int main(){
+
+// Perimeter of rectangle C++ program
+int width=4;
+int length=4;
+double perimeter;
+perimeter=(width + length)*2;
+cout<<"Perimeter Of A rectangle Is "<<perimeter<<endl;
+
+return 0;
+}
+
+
+
+
+
+
+
+

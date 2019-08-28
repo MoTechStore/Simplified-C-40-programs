@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+ int main(){
+
+// Area of triangle C++ program
+int base=4;
+int height=4;
+double area;
+area=base*height*(0.5);
+cout<<"Area Of A Triangle Is "<<area<<endl;
+
+return 0;
+
+}
+
+
+
+

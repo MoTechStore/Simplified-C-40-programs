@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+
+int main()
+{
+	// C++ simple guessing game
+	int number;
+	cout<<"This Is Simple Guessing Game "<<endl;
+	cout<<"Guess Which Number I Got On My Hands :";
+	cin>>number;
+	     int rand();
+	if(rand()==number)
+	   cout<<"You Are So Genius ";
+	else
+	   cout<<"I Guess You Are Wrong My Number Is "<<rand()<<endl;
+	   cout<<"Your Number Is "<<number;   
+	return 0;	
+}
+
+

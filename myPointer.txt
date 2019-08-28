@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// pointer program in C++
+	// declaring pointer of type int called mypointer
+	int *mypointer, x;
+	  x=2; 
+	 // assigning of value to a pointer 
+	  mypointer= &x;
+	  cout<<*mypointer<<endl;
+	  cout<<x<<endl;
+	  
+	return 0;
+}
+
+
+
+
+
+
+
+

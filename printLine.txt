@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+
+main()
+{
+// print line in C++
+cout<<"Hello"; // This will print in the same line
+cout<<"World"; // This will print in the same line
+cout<<" "<<endl; // This will print in new line
+cout<<"Hello World"<<endl; // This will print in new line 
+	
+	return 0;
+}
+
+

@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	// Switch case program in C++ 
+	   char selection;
+	   int n1,n2,add,sub,pro;
+	   double div;
+      cout<<"This Is Simple Calculator "<<endl;
+      cout<<"Enter Two Integer Number : "<<endl;
+      cin>>n1>>n2;
+      cout<<"Select A for Addition, S For Subtraction "<<endl; 
+	  cout<<"P For Product, D For Division "<<endl;
+      cin>>selection;
+      switch(selection){
+      	case 'A':
+      		add=n1 + n2;
+      		cout<<"Addition Of Two Entered Number Is "<<add;
+      	    break;
+      	case 'S':
+              sub=n1 - n2; 		
+			  cout<<"Subtraction Of Two Entered Number Is "<<sub;
+      	    break;
+		case 'P':
+			 pro=n1*n2;
+      		  cout<<"Product Of Two Entered Number Is "<<pro;
+      	    break;
+      	case 'D':
+			 div=(n1 + n2)/2;
+      		  cout<<"Division Of Two Entered Number Is "<<div;	      
+      	default:
+      	    cout<<"Wrong choice, select again ";
+	  }
+	return 0;
+}
+
+
+
+
+
+

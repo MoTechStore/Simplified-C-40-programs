@@ -1,0 +1,30 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	// Addition program and write to a file
+	int n1,n2,sum;
+	cout<<"Enter Two Numbers For Addition : ";
+	cin>>n1>>n2;
+	sum=n1 + n2;
+	 
+	char filename[30];
+	cout<<"Enter Name Of File To Write Your Answer : ";
+	cin>>filename;
+	cout<<sum<<" Is Written In "<<filename<<" As Answer"<<endl;
+	ofstream writefile;
+	writefile.open(filename);   
+	writefile<<sum;
+	writefile.close();
+	cout<<"Congrats Your Answer Is Writenn To A File Called "<<filename<<endl;
+	return 0;	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ program to shows how to comment in C++
+	// This is the single line comment
+	
+	/*  This is
+	    Multiple line
+	    Comment
+	 */
+	 
+	 cout<<"Single And Multiple line comment will not display ";   
+	
+	return 0;
+}
+
+
